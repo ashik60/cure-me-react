@@ -24,7 +24,7 @@ const infosData = [
 
 const BusinessInfo = () => {
     return (
-        <section className="d-flex justify-content-center">
+        <section className="d-flex mb-5 justify-content-center">
             <div className="row w-75 text-white">
                 {infosData.map((info) => (
                     <BusinessInfoCard info={info} />
