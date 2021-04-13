@@ -1,7 +1,7 @@
+import Navbar from "../Shared/Navbar";
 import BusinessInfo from "./BusinessInfo";
 import "./Header.css";
 import HeaderMain from "./HeaderMain";
-import Navbar from "./Navbar";
 
 const Header = () => {
     return (

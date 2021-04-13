@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const FooterCol = (props: any) => {
     return (
@@ -7,10 +8,9 @@ const FooterCol = (props: any) => {
             <ul className="list-unstyled mt-4">
                 {props.menuItems.map((item: any, index: any) => (
                     <li key={index}>
-                        <h6 className="text-secondary">{item.name}</h6>
-                        {/* <Link to={item.link} className="text-secondary">
+                        <Link to={item.link} className="text-secondary">
                             {item.name}
-                        </Link> */}
+                        </Link>
                     </li>
                 ))}
             </ul>
